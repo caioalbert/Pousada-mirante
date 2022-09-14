@@ -75,16 +75,16 @@ input, select, textarea {
 		font-weight: 300;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
+	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
+	}
 
 	input, textarea, select {
 		font-size: 15pt;
@@ -2161,9 +2161,9 @@ input, select, textarea {
 	#header {
 		position: relative;
 		background-image: url("../../images/hotel-1979406_1920.svg");
+		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;
-		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
@@ -2172,19 +2172,23 @@ input, select, textarea {
 
 	header img{
 		filter: drop-shadow(-10px 10px 4px #000000);
+		width: 100%;
 	}
-		#header:before {
-			content: '';
-			display: inline-block;
-			vertical-align: middle;
-			height: 100%;
-		}
+
+
+	
+	#header:before {
+		display: inline-block;
+		vertical-align: middle;
+		height: 50%;
+		width: 50%;
+	}
 
 		#header .inner {
 			position: relative;
 			z-index: 1;
 			margin: 0;
-			display: inline-block;
+			display: inline;
 			vertical-align: middle;
 		}
 
