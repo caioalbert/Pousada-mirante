@@ -104,6 +104,7 @@
 
     // obtendo o modal
 var modal = document.getElementById("myModal");
+var modal2 = document.getElementById("myModal2");
 
 // Get the button that opens the modal
 var btn1 = document.getElementById("suite1");
@@ -119,7 +120,7 @@ btn1.onclick = function() {
   modal.style.display = "block";
 }
 btn2.onclick = function() {
-  modal.style.display = "block";
+  modal2.style.display = "block";
 }
 btn3.onclick = function() {
   modal.style.display = "block";
