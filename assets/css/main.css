@@ -2674,7 +2674,7 @@ body.homepage.is-preload #header:after {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding: 40px 0; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -2690,7 +2690,8 @@ body.homepage.is-preload #header:after {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 520px;
+  border-radius: 20px;
 }
 
 /* The Close Button */
