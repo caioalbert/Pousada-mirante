@@ -103,45 +103,6 @@
     }
 
     // obtendo o modal
-<<<<<<< HEAD
-var modal = document.getElementById("myModal");
-var modal2 = document.getElementById("myModal2");
-
-// Get the button that opens the modal
-var btn1 = document.getElementById("suite1");
-var btn2 = document.getElementById("suite2");
-var btn3 = document.getElementById("suite3");
-var btn4 = document.getElementById("suite4");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn1.onclick = function() {
-  modal.style.display = "block";
-}
-btn2.onclick = function() {
-  modal2.style.display = "block";
-}
-btn3.onclick = function() {
-  modal.style.display = "block";
-}
-btn4.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-=======
     var modal = document.getElementById("myModal");
 
     // Get the button that opens the modal
@@ -168,7 +129,6 @@ window.onclick = function(event) {
         modal.style.display = "none";
       }
     };
->>>>>>> 42170e3fe935376bf1a0d372dcfaf1659924718a
 
     // Main.
     $t._update = function () {
