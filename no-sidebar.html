@@ -43,7 +43,33 @@
       </div>
 
       <!-- Main -->
-      <div class="wrapper style1"></div>
+      <div class="wrapper style1">
+        <form name="contato" action= "https://formsubmit.co/caioalberto2104@gmail.com" method="POST">
+
+          <h1>Entre em contato</h1>
+          <br>
+
+          <label for="nome">Nome</label>
+          <input type="text" id="nomeid" placeholder="Brenda Oliveira Peixoto" required="required" name="nome" />
+          <br>
+
+          <label for="fone">Fone</label>
+          <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" required="required">
+          <br>
+
+          <label for="email">Email</label>
+          <input type="email" id="emailid" placeholder="exemple@mail.com" name="email" required="required"/>
+          <br>
+          
+          <label for="message">mensagem</label>
+          <textarea name="message" placeholder="Deixe sua mensagem" required="required"></textarea>
+          <br>
+
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucess.html">
+          <input type="hidden" name="_captcha" value="false">
+
+          <input type="submit" id="enviar" value="Enviar" />
+      </div>
 
       <!-- Footer -->
       <div id="footer">
