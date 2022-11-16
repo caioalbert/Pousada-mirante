@@ -2449,10 +2449,16 @@ body.homepage.is-preload #header:after {
 
 /* Banner */
 
-#banner {
+#banner-index {
   background: #fff;
   text-align: center;
-  padding: 4.5em 0 4.5em 0;
+  padding: 4em;
+  margin-bottom: 0;
+}
+
+#banner-contato {
+  background: #fff;
+  text-align: center;
   margin-bottom: 0;
 }
 
