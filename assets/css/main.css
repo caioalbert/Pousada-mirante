@@ -2452,13 +2452,14 @@ body.homepage.is-preload #header:after {
 #banner-index {
   background: #fff;
   text-align: center;
-  padding: 4em;
+  padding: 4.5em 0 4.5em 0;
   margin-bottom: 0;
 }
 
 #banner-contato {
   background: #fff;
   text-align: center;
+  padding: 4.5em -100 4.5em -100;
   margin-bottom: 0;
 }
 
@@ -2778,7 +2779,11 @@ body.homepage.is-preload #header:after {
 
   /* Banner */
 
-  #banner {
+  #banner-index {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  #banner-contato {
     padding-left: 2em;
     padding-right: 2em;
   }
@@ -3199,7 +3204,7 @@ body.homepage.is-preload #header:after {
 
   /* Banner */
 
-  #banner {
+  #banner-index {
     padding: 3em 2em 3em 2em;
   }
 
