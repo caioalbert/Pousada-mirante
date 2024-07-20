@@ -2607,7 +2607,8 @@ body.homepage.is-preload #header:after {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 520px;
+  min-width: 250px;
+  max-width: 520px;
   border-radius: 20px;
 }
 
